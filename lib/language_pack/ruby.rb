@@ -16,7 +16,7 @@ class LanguagePack::Ruby < LanguagePack::Base
   LIBYAML_PATH         = "libyaml-#{LIBYAML_VERSION}"
   BUNDLER_VERSION      = "1.9.7"
   BUNDLER_GEM_PATH     = "bundler-#{BUNDLER_VERSION}"
-  DEFAULT_RUBY_VERSION = "ruby-2.0.0"
+  DEFAULT_RUBY_VERSION = "ruby-2.2.4"
   RBX_BASE_URL         = "http://binaries.rubini.us/heroku"
   BOWER_VERSION        = "1.7.6"
   BOWER_BASE_URL       = "http://heroku-buildpack-ruby-bower.s3.amazonaws.com"
