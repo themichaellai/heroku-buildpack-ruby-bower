@@ -107,7 +107,7 @@ WARNING
         install_binaries
         install_node
         install_bower
-        build_bower
+        #build_bower
         run_assets_precompile_rake_task
       end
       best_practice_warnings
@@ -144,7 +144,7 @@ private
   end
 
   def system_paths
-    "/usr/local/bin:/usr/bin:/bin"
+    "../../bin:/usr/local/bin:/usr/bin:/bin"
   end
 
   # the relative path to the bundler directory of gems
